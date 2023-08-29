@@ -1,3 +1,6 @@
+require ('dotenv').config()
+require ('aws-sdk/client/')
+
 const AWS_BUCKET_NAME = process.env.AWS_BUCKET_NAME
 const AWS_BUCKET_REGION = process.env.AWS_BUCKET_REGION
 const AWS_PUBLIC_KEY = process.env.AWS_PUBLIC_KEY
