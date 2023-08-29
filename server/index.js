@@ -9,6 +9,8 @@ app.use(fileUpload({
     tempFileDir : './archivos'
 }));
 
+app.use(express.static('images'))
+
 
 
 app.use(cors({
